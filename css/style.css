@@ -1,0 +1,40 @@
+body {
+    background-color: #eeeee4;
+    height: 100vh;
+}
+.container {
+    height: 100%;
+}
+
+.message-input {
+    border-radius: 50px;
+    width: 25rem;
+}
+
+.send {
+    translate: 50%;
+}
+.right {
+    clear: both;
+    flex-direction: row-reverse;
+}
+.left {
+    clear: both;
+    flex-direction: row;
+}
+.message {
+    display: flex;
+    margin: 1rem;
+}
+.message-inner {
+    padding: .6rem 1.6rem;
+    border-radius: 50px;
+    background-color: teal;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .message-input {
+        width: 50%;
+    }
+  }
